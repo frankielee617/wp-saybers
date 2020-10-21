@@ -10,7 +10,7 @@ Template Name: Search Page
         <div class="row">
             <div class="col-md-12">
                 <div class="section-header">
-                    <h2>Search Results</h2>
+                    <h2><?php esc_html_e('Search Results', 'saybers'); ?></h2>
                     <div class="line"><img src="<?php  echo get_site_icon_url() ?>" alt=""></div>
                     <p class="sub-head"><?php printf( __( 'Search Results for : %s', 'saybers' ), '<span>' . get_search_query() . '</span>' ); ?></p>
                 </div>
