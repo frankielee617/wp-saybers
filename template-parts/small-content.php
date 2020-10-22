@@ -19,7 +19,7 @@
             <!--add date if archive-->
             <?php endif; ?>
             <?php the_excerpt() ?>
-            <a class="btn" href="<?php the_permalink() ?>" data-toggle="modal">Read More</a>
+            <a class="btn" href="<?php the_permalink() ?>" data-toggle="modal"><?php esc_html_e( 'Read More', 'saybers' ); ?></a>
         </div>
     </div>
 </div>
