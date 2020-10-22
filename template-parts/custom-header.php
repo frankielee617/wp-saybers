@@ -132,7 +132,7 @@
                             <div class="navbar-header">
                                 <a href="<?php echo esc_url( home_url( '/' ) ); ?>" class="navbar-brand"><?php bloginfo('name'); ?><span><?php if ( function_exists('the_custom_logo' ) ) { the_custom_logo(); } ?></span></a> <!--change the logo here or brand name here-->
                                 <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
-                                    <span class="sr-only">Toggle navigation</span>
+                                    <span class="sr-only"><?php esc_html_e( 'Toggle navigation', 'saybers' ); ?></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
                                     <span class="icon-bar"></span>
